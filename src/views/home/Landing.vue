@@ -3,7 +3,7 @@
     <img id="onboarding-bg" class="onboarding-bg" src="@/assets/landing.jpg" />
     <div class="onboarding-inner">
       <div class="onboarding-content slide-in-left">
-        <span style="font-weight: 700" class="newtext">Educate</span>
+        <span style="font-weight: 700" class="newtext2">Educate</span>
         <span
           style="font-weight: 700; font-size: 40px; color: var(--color-primary)"
           >Enlighten
@@ -74,6 +74,9 @@ export default {
 .newtext {
   font-size: 40px;
 }
+.newtext2 {
+  font-size: 30px;
+}
 @media screen and (max-width: 840px) {
   .onboarding-inner {
     padding: 0px 84px;
@@ -86,6 +89,9 @@ export default {
   }
   .newtext {
     font-size: 30px;
+  }
+  .newtext2 {
+    font-size: 25px;
   }
 }
 </style>
