@@ -3,7 +3,7 @@
     <img id="onboarding-bg" class="onboarding-bg" src="@/assets/landing.jpg" />
     <div class="onboarding-inner">
       <div class="onboarding-content slide-in-left">
-        <span style="font-weight: 700; font-size: 20px">Educate</span>
+        <span style="font-weight: 700" class="newtext">Educate</span>
         <span
           style="font-weight: 700; font-size: 40px; color: var(--color-primary)"
           >Enlighten
