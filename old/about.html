@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Yasham Foundation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="charset" content="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/vue.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="https://kit.fontawesome.com/71f38e2514.js" crossorigin="anonymous"></script>
+        <style>
+            .address-holder{
+                line-height: 28px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="vue-root">
+            <loading-dialog></loading-dialog>
+            <work-view-page></work-view-page>
+            <gallery-popup></gallery-popup>
+            <nav-holder selecteditem="about"></nav-holder>
+            <div class="subsection mob-center" style="background: linear-gradient(90deg,#d5420f,#fe8a00); color: #FFF">
+                <h2>About Yasham</h2>
+                <span class="underbar" style="background: #FFF;"></span><br>
+                <p class="slide-in-left" style="line-height: 28px;">
+                    *TBU*
+                    As per the Multidimensional Poverty Index compiled by the United Nations Development Program, over 370 million people live in multidimensional poverty in India.* Aside from lack of money, multidimensional poverty encompasses other factors such as limited education and poor healthcare and nutrition.
+                    <br>
+                    <br>
+                    Yasham employs a multi-faceted approach to alleviate the multidimensional poverty in India. Yasham provides and supports education, healthcare, women empowerment, youth mobilisation and community enrichment programs for communities.
+                </p>
+            </div>
+            <div class="custom-shape-divider-top-1625640904">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <defs><linearGradient id="gradient"><stop offset="0%" stop-color="#d5420f"></stop><stop offset="100%" stop-color="#fe8a00"></stop></linearGradient></defs>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="url(#gradient)"></path>
+                </svg>
+            </div>
+
+            <div class="subsection mob-center slide-in-left" style="background: #FFF;">
+                <h2><i class="fas fa-landmark text-gradient" style="padding-right: 16px;"></i>How It Started</h2>
+                <span class="underbar"></span><br>
+                <p style="line-height: 28px;">
+                    Yasham came in to existence when three friends Sunita Mandelia, Smita Kaushal and Shilpa Bhagat joined hands to educate the children at NSS school in Mumbai, India.
+                    <br><br>
+                    Sunita always believed in power of education. She was tutoring her maid's son and became distraught with the fact that he was in grade five of a semi English school and did not know a word of English. She decided to extend teaching support to the entire school to bridge this learning gap.
+                    <br><br>
+                    Smita was inspired by her son Dhruv Kaushal to start educating underprivileged children. Dhruv was deeply moved by the widespread prevalence of children excluded from the formal education system in India. Smita and Dhruv put their prior experience in children's education charities together to set up the foundation.
+                    <br><br>
+                    Shilpa was cofounder of Cuddles Foundation that was involved in cancer relief for underprivileged children. She was distressed by their lack of access to education. She gladly reached out to promote the education initiative. She has been actively involved in launching several initiatives for the foundation.
+                </p>
+            </div>
+
+            <div class="custom-shape-divider-top-1625640904 scroll-reveal" style="background: #F5F5F5;">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <defs><linearGradient id="gradient"><stop offset="0%" stop-color="#d5420f"></stop><stop offset="100%" stop-color="#fe8a00"></stop></linearGradient></defs>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#FFFFFF"></path>
+                </svg>
+            </div>
+
+            <div class="subsection mob-center scroll-reveal" style="background: #F5F5F5;">
+                <h2><i class="fas fa-user-friends text-gradient" style="padding-right: 16px;"></i>Our Team</h2>
+                <span class="underbar"></span><br>
+                <div class="team-holder" id="team-holder">
+                    <div class="team-item">
+                        <div class="team-item-inner">
+                            <div class="team-item-front">
+                                <div class="team-item-img" style="background-image: url(./assets/images/team/sunita.png)" alt="Avatar"></div>
+                            </div>
+                            <div class="team-item-back">
+                                <h2>Sunita Mandelia</h2>
+                                <p>
+                                    Sunita is a gold medallist in Psychology (Honours) from Mumbai University. She is a writer and poet. Her book of poetries 'Bhanwar' has been published by The Write Place Publications, an initiative by Crossword Bookstores Limited. She has been involved in various social pursuits such as education, healthcare and women empowerment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-item">
+                        <div class="team-item-inner">
+                            <div class="team-item-front">
+                                <div class="team-item-img" style="background-image: url(./assets/images/team/smita.png)" alt="Avatar"></div>
+                            </div>
+                            <div class="team-item-back">
+                                <h2>Smita Kaushal</h2>
+                                <p>
+                                    Smita is a qualified chartered accountant and lawyer and has worked with several multinational organisations in India and overseas. She has extensive experience of the social sector through her involvement with several not-for profit organisations in Mumbai
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-item">
+                        <div class="team-item-inner">
+                            <div class="team-item-front">
+                                <div class="team-item-img" style="background-image: url(./assets/images/team/shilpa.png)" alt="Avatar"></div>
+                            </div>
+                            <div class="team-item-back">
+                                <h2>Shilpa Bhagat</h2>
+                                <p>
+                                    Shilpa is a qualified management graduate and has worked with HDFC Bank in the past. She was also crowned Mrs India World 2013. She has been involved with a number of not-for profit organisations working in the areas education and cancer relief.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer-holder></footer-holder>
+        </div>
+        
+    </body>
+</html>

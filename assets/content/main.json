@@ -1,0 +1,202 @@
+{
+    "work": [
+        {
+            "title": "Sunn Zara",
+            "image": "./assets/images/IMG_7367.jpg",
+            "subtext": "Subtext",
+            "summaryText": "Text Summary",
+            "descriptionMarkdown": "# Yasham Page Example\r\nThis is an example page written using markdown and JSON.\r\nYou can have [links](https:\/\/google.com), photos, etc here as well.\r\nMarkdown also supports things like lists:\r\n - List item 1\r\n - List Item 2\r\n - List Item 3\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n",
+            "gallery": [
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 1"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 2"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 3"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 4"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 5"
+                }
+            ]
+        },
+        {
+            "title": "Sunn Zara",
+            "image": "./assets/images/IMG_7367.jpg",
+            "subtext": "Subtext",
+            "summaryText": "Text Summary",
+            "descriptionMarkdown": "# Yasham Page Example\r\nThis is an example page written using markdown and JSON.\r\nYou can have [links](https:\/\/google.com), photos, etc here as well.\r\nMarkdown also supports things like lists:\r\n - List item 1\r\n - List Item 2\r\n - List Item 3\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n",
+            "gallery": [
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 1"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 2"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 3"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 4"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 5"
+                }
+            ]
+        },
+        {
+            "title": "Sunn Zara",
+            "image": "./assets/images/IMG_7367.jpg",
+            "subtext": "Subtext",
+            "summaryText": "Text Summary",
+            "descriptionMarkdown": "# Yasham Page Example\r\nThis is an example page written using markdown and JSON.\r\nYou can have [links](https:\/\/google.com), photos, etc here as well.\r\nMarkdown also supports things like lists:\r\n - List item 1\r\n - List Item 2\r\n - List Item 3\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n",
+            "gallery": [
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 1"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 2"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 3"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 4"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 5"
+                }
+            ]
+        },
+        {
+            "title": "Sunn Zara",
+            "image": "./assets/images/IMG_7367.jpg",
+            "subtext": "Subtext",
+            "summaryText": "Text Summary",
+            "descriptionMarkdown": "# Yasham Page Example\r\nThis is an example page written using markdown and JSON.\r\nYou can have [links](https:\/\/google.com), photos, etc here as well.\r\nMarkdown also supports things like lists:\r\n - List item 1\r\n - List Item 2\r\n - List Item 3\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n\r\n\r\nThere is also a mini gallery feature at the bottom where you can have a gallery of photos and stuff for each work\/page.\r\n",
+            "gallery": [
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 1"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 2"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 3"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 4"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 5"
+                }
+            ]
+        }
+    ],
+    "communities": [
+        {
+            "title": "G.D. Somani Centre",
+            "image": "./assets/images/IMG_7367.jpg",
+            "subtext": "Subtext",
+            "summaryText": "Text Summary",
+            "descriptionMarkdown": "",
+            "gallery": [
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 1"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 2"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 3"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 4"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 5"
+                }
+            ]
+        },
+        {
+            "title": "Takshasheela Centre",
+            "image": "./assets/images/IMG_7367.jpg",
+            "subtext": "Subtext",
+            "summaryText": "Text Summary",
+            "descriptionMarkdown": "",
+            "gallery": [
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 1"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 2"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 3"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 4"
+                },
+                {
+                    "source": "./assets/images/IMG_7367.jpg",
+                    "caption": "Image 5"
+                }
+            ]
+        }
+    ],
+    "in_the_news": [
+        {
+            "source": "./assets/images/IMG_7367.jpg",
+            "caption": "Image 1"
+        },
+        {
+            "source": "./assets/images/IMG_7367.jpg",
+            "caption": "Image 2"
+        },
+        {
+            "source": "./assets/images/IMG_7367.jpg",
+            "caption": "Image 3"
+        },
+        {
+            "source": "./assets/images/IMG_7367.jpg",
+            "caption": "Image 4"
+        },
+        {
+            "source": "./assets/images/IMG_7367.jpg",
+            "caption": "Image 5"
+        }
+    ]
+}

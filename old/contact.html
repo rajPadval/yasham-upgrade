@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Yasham Foundation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="charset" content="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/vue.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="https://kit.fontawesome.com/71f38e2514.js" crossorigin="anonymous"></script>
+
+        <style>
+            .address-holder{
+                line-height: 28px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="vue-root">
+            <loading-dialog></loading-dialog>
+            <work-view-page></work-view-page>
+            <gallery-popup></gallery-popup>
+            <nav-holder selecteditem="contact"></nav-holder>
+            <div class="subsection mob-center" style="background: linear-gradient(90deg,#d5420f,#fe8a00); color: #FFF">
+                <h1>Contact Us</h1>
+                <span class="underbar" style="background: #FFF;"></span>
+            </div>
+            <div class="custom-shape-divider-top-1625640904">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <defs><linearGradient id="gradient"><stop offset="0%" stop-color="#d5420f"></stop><stop offset="100%" stop-color="#fe8a00"></stop></linearGradient></defs>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="url(#gradient)"></path>
+                </svg>
+            </div>
+            <div class="subsection mob-center slide-in-left" style="background: #FFF; min-height: calc(100% - 84px);">
+
+                <div class="address-holder">
+                    <span style="font-size: 18px; font-weight: 600;">Yasham Foundation</span><br>
+                    <i class="far fa-envelope" style="display: inline-block; width: 32px; color: var(--color-primary)"></i> <a class="ylink" href="mailto:info@yashamfoundation.org">info@yashamfoundation.org</a><br>
+                    <i class="fa fa-phone" style="display: inline-block; width: 32px; color: var(--color-primary)"></i> <a>+91 9920471772</a><br>
+                    <br>
+                    You can also get in touch with us on our social media pages at:
+                    <div style="font-weight: 600; color: var(--color-primary)">
+                        <a href="https://www.instagram.com/yasham_foundation/"><i class="fab fa-instagram" style="display: inline-block; width: 32px;"></i> Instagram</a><br>
+                        <a href="https://www.facebook.com/101851225485402/posts/104813755189149/"><i class="fab fa-facebook" style="display: inline-block; width: 32px;"></i> Facebook</a><br>
+                        <a href="https://www.linkedin.com/company/yasham-foundation"><i class="fab fa-linkedin" style="display: inline-block; width: 32px;"></i> LinkedIn</a><br>
+                        <a href="https://twitter.com/YashamFoundati2?s=09"><i class="fab fa-twitter" style="display: inline-block; width: 32px;"></i> Twitter</a><br>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <footer-holder></footer-holder>
+        </div>
+        
+        <script>
+            function initMap(){
+                let loc = {lat: 18.9816746, lng: 72.8291017};
+                let map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 16,
+                    center: loc,
+                });
+                const marker = new google.maps.Marker({
+                    position: loc,
+                    map: map,
+                });
+            }
+        </script>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIIfHhsKxlQ_TVDxJLk1k-vUJn76bah1A&callback=initMap&libraries=&v=weekly"
+        async
+      ></script>
+    </body>
+</html>

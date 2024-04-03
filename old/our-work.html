@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Yasham Foundation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="charset" content="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.6/markdown-it.min.js" integrity="sha512-7U8vY7c6UQpBNQOnBg3xKX502NAckvk70H1nWvh6W7izA489jEz+RCN3ntT1VMdXewaSKkOrEBegp/h6SPXrjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="assets/js/vue.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="https://kit.fontawesome.com/71f38e2514.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="vue-root">
+            <loading-dialog></loading-dialog>
+            <work-view-page></work-view-page>
+            <gallery-popup></gallery-popup>
+            <nav-holder selecteditem="work"></nav-holder>
+            <div class="subsection mob-center" style="background: linear-gradient(90deg,#d5420f,#fe8a00); color: #FFF">
+                <h1>What does Yasham do?</h1>
+                <span class="underbar" style="background: #FFF;"></span>
+            </div>
+            <div class="custom-shape-divider-top-1625640904" style="background: #F5F5F5;">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <defs   defs><linearGradient id="gradient"><stop offset="0%" stop-color="#d5420f"></stop><stop offset="100%" stop-color="#fe8a00"></stop></linearGradient></defs>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="url(#gradient)"></path>
+                </svg>
+            </div>
+            <div class="subsection mob-center scroll-reveal" style="background: #F5F5F5; min-height: calc(100% - 84px);">
+                <h2><i class="fa fa-heartbeat text-gradient" style="padding-right: 16px;"></i>Our 5 Main Goals</h2>
+                <span class="underbar"></span><br>
+                <p>Summary about the 5 goals...</p>
+                <div class="fivepoint-select">
+                    <div onclick="selectFivePoint(1)" selected="true" class="fivepoint-select-item">1</div>
+                    <div onclick="selectFivePoint(2)" class="fivepoint-select-item">2</div>
+                    <div onclick="selectFivePoint(3)" class="fivepoint-select-item">3</div>
+                    <div onclick="selectFivePoint(4)" class="fivepoint-select-item">4</div>
+                    <div onclick="selectFivePoint(5)" class="fivepoint-select-item">5</div>
+                </div>
+                <div>
+                    <div class="fivepoint-item slide-in-left" style="display: flex;">
+                        <img src="./assets/images/point1.jpg" />
+                        <div class="fivepoint-inner">
+                            <span class="fivepoint-title">
+                                <span class="fivepoint-count">1. </span>
+                                Education
+                            </span>
+                            <p>
+                                Education is the first priority for even the poorest echelons of the impoverished population. They have one dream and that is to "Educate my child" The learning gaps for the first generation of school goers in the formal education system are significant.
+                                <br>
+                                <br>
+                                Yasham provides quality education to underprivileged children to bridge this learning gap. We use latest tools and technology, to supplement the formal school education. We focus on proficiency in English, basic Mathematical skills and Value Systems. Art, Culture, Sports and Field trips are part of the curriculum, to promote experiential learning.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fivepoint-item slide-in-left" style="display: none;">
+                        <img src="./assets/images/point2.jpg" />
+                        <div class="fivepoint-inner">
+                            <span class="fivepoint-title">
+                                <span class="fivepoint-count">2. </span>
+                                Healthcare
+                            </span>
+                            <p>
+                                Studies have repeatedly shown that the holistic development of a child is hampered by poor health and nutrition. Malnutrition and simple unattended health complaints such as a toothache or an eye problem have the potential to have material impact on academic outcomes. Chronic health problems in the family also act as an impediment.
+                                <br>
+                                <br>
+                                Yasham provides healthcare facilities to children and their families to enable the families to better focus on the development of the child. We improve the nutrition of the children by providing healthy snacks to them at our centres.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fivepoint-item slide-in-left" style="display: none;">
+                        <img src="./assets/images/point3.jpg" />
+                        <div class="fivepoint-inner">
+                            <span class="fivepoint-title">
+                                <span class="fivepoint-count">3. </span>
+                                Women Empowerment
+                            </span>
+                            <p>
+                                Women are the critical pillars in any family. An empowered mother is a role model for the child. She can instil a sense of self-confidence and inculcate grand aspirations in her child.
+                                <br>
+                                <br>
+                                Yasham empowers women primarily through livelihood programs and provides them with supplemental English speaking classes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fivepoint-item slide-in-left" style="display: none;">
+                        <img src="./assets/images/point4.jpg" />
+                        <div class="fivepoint-inner">
+                            <span class="fivepoint-title">
+                                <span class="fivepoint-count">4. </span>
+                                Youth Mobilisation
+                            </span>
+                            <p>
+                                Today's Youth will be the future of tomorrow in our country. It is critical that we equip them with the necessary skills to enable them to be gainfully employed in the future and achieve their ambitions.
+                                <br>
+                                <br>
+                                Yasham runs <span style="color: var(--color-primary)">"Hum Honge Kamyab"</span> program for skill development, career placement, mentoring and counselling programs for the youth in the community. We also take an active interest in developing future artists by running talent contests.
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fivepoint-item slide-in-left" style="display: none;">
+                        <img src="./assets/images/point5.jpg" />
+                        <div class="fivepoint-inner">
+                            <span class="fivepoint-title">
+                                <span class="fivepoint-count">5. </span>
+                                Community Enrichment
+                            </span>
+                            <p>
+                                Good values and practices uplift a community.
+                                <br><br>
+                                Yasham offers counselling, anti-alcoholism programs, cleanliness drives and elderly care to the families. We work at the grass root level, interacting constantly with the community members to transform them in to self sufficient and learning communities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-shape-divider-top-1625640904 scroll-reveal" style="background: #FFF;">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <defs><linearGradient id="gradient"><stop offset="0%" stop-color="#d5420f"></stop><stop offset="100%" stop-color="#fe8a00"></stop></linearGradient></defs>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#F5F5F5"></path>
+                </svg>
+            </div>
+            <div class="subsection scroll-reveal mob-center" style="background: #FFF">
+                <h2><i class="fas fa-hands-helping text-gradient" style="padding-right: 16px;"></i>Our Programmes</h2>
+                <span class="underbar"></span><br>
+                <div class="pcardlist" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+                    <a v-for="(item, index) in content.work" style="margin-bottom: 16px;" :key="index" class="pcard slide-in-left" v-on:click="$root.$emit('showWorkPage', item)">
+                        <div v-bind:style="{'background-image': 'url('+item.image+')'}" class="pcard-header">
+                            <div class="pcard-header-text">
+                                <span class="pcard-title">{{item.title}}</span>
+                                <span class="pcard-subtitle">{{item.subtext}}</span>
+                                
+                            </div>
+                        </div>
+                        <div class="pcard-content">
+                            {{item.summaryText}}
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="custom-shape-divider-top-1625640904 scroll-reveal" style="background: #F5F5F5;">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <defs><linearGradient id="gradient"><stop offset="0%" stop-color="#d5420f"></stop><stop offset="100%" stop-color="#fe8a00"></stop></linearGradient></defs>
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#FFFFFF"></path>
+                </svg>
+            </div>
+            <div class="subsection scroll-reveal mob-center" style="background: #F5F5F5">
+                <h2><i class="fa fa-users text-gradient" style="padding-right: 16px;"></i>Yasham Communities</h2>
+                <span class="underbar"></span><br>
+                <p style="line-height: 24px;">Yasham supports and works towards empowering various communities around the country....</p>
+                <div class="pcardlist" id="communities-carousel">
+                    <a v-for="(item, index) in content.communities" style="width: 100%; max-width: 480px" :key="index" class="pcard slide-in-left" v-on:click="$root.$emit('showWorkPage', item)">
+                        <div v-bind:style="{'background-image': 'url('+item.image+')'}" class="pcard-header">
+                            <div class="pcard-header-text">
+                                <span class="pcard-title">{{item.title}}</span>
+                                <span class="pcard-subtitle">{{item.subtext}}</span>
+                                
+                            </div>
+                        </div>
+                        <div class="pcard-content">
+                            {{item.summaryText}}
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <footer-holder></footer-holder>
+        </div>
+        
+        <script>
+            function selectFivePoint(point){
+                point--;
+                let pointSelectors = document.getElementsByClassName("fivepoint-select-item");
+                let points = document.getElementsByClassName("fivepoint-item");
+                for(let i=0;i<points.length;i++){
+                    if(point==i){
+                        pointSelectors.item(i).setAttribute("selected",true);
+                        points.item(i).style.display = "flex";
+                    }else{
+                        pointSelectors.item(i).removeAttribute("selected");
+                        points.item(i).style.display = "none";
+                    }
+                    
+                }
+            }
+            window.postLoad = function(){
+                new SimpleCarousel(document.getElementById("communities-carousel"));
+                new SimpleCarousel(document.getElementById("work-carousel"));
+            }
+        </script>
+    </body>
+</html>

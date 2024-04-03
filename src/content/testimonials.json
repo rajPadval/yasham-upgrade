@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "Sunita Mandelia",
+        "role": "Founder",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo vel reprehenderit id. Ullam pariatur enim beatae, eveniet aliquid ratione! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quas quasi iste unde culpa impedit necessitatibus! Fugiat dignissimos quas quidem?",
+        "pfp": "@/public/assets/images/team/sunita.png"
+    },
+    {
+        "id": "2",
+        "name": "Hardik Garg",
+        "role": "Developer",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo vel reprehenderit id. Ullam pariatur enim beatae, eveniet aliquid ratione! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quas quasi iste unde culpa impedit necessitatibus! Fugiat dignissimos quas quidem?",
+        "pfp": "@/assets/logo.png"
+    },
+    {
+        "id": "3",
+        "name": "Aditya Kharote",
+        "role": "Developer",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo vel reprehenderit id. Ullam pariatur enim beatae, eveniet aliquid ratione! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quas quasi iste unde culpa impedit necessitatibus! Fugiat dignissimos quas quidem?",
+        "pfp": "@/assets/logo.png"
+    },
+    {
+        "id": "4",
+        "name": "Akshaya Karande",
+        "role": "Supporter",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo vel reprehenderit id. Ullam pariatur enim beatae, eveniet aliquid ratione! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quas quasi iste unde culpa impedit necessitatibus! Fugiat dignissimos quas quidem?",
+        "pfp": "@/assets/logo.png"
+    },
+    {
+        "id": "5",
+        "name": "Deepak Ganwani",
+        "role": "Supporter",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo vel reprehenderit id. Ullam pariatur enim beatae, eveniet aliquid ratione! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quas quasi iste unde culpa impedit necessitatibus! Fugiat dignissimos quas quidem?",
+        "pfp": "@/assets/images/logo_icon.png"
+    }
+]
